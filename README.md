@@ -26,7 +26,7 @@
 2. 安裝ipa檔案至行動裝置(可用Cydia Impactor等，此處舉例iMazing -> (https://imazing.com))
    2(a). 連接設備 -> 點擊中間右頁選單內Manage Apps -> 點擊右下方下三角形 -> 選擇Install .IPA File安裝
 3. 至iOS設定內裝置管理點擊信任開發人員後即可正常使用  
-
+---
 *補充
 1. 在```info.plist```內```<key>CFBundleDisplayName</key>```內可更改app名稱以利辨認
    ```
