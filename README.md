@@ -4,7 +4,7 @@
 使用範例:   
 <img src="https://imageconvert.org/uploads/IMG_65401688222238.jpg" width="25%">
 ## 所需app數量、版本設置  
-1. 下載上方file提供```DecryptedCC.ipa``` -> (https://github.com/SongSongLook/Multi-Culture-Coin/archive/refs/heads/main.zip)
+1. 下載上方file提供已砸殼ipa```DecryptedCC.ipa``` -> (https://github.com/SongSongLook/Multi-Culture-Coin/archive/refs/heads/main.zip)
 2. 確認自身裝置```Model Identifiers``` -> (https://deviceatlas.com/resources/clientside/ios-hardware-identification)   
 (目前原始檔案預設僅支持iPhone 8, iPhone 7,and iPhone 11 Pro Max若是以上型號可跳過步驟3)
 3. 以BBedit等文本編輯器開啟ipa檔案尋找 ```info.plist``` 內展開 ```UISupportedDevices``` 如以下所示   
@@ -24,6 +24,13 @@
    (Apple ID簽名ipa每七天過期需重新簽名，一部裝置最多可安裝三個自行簽名ipa檔案)   
    1(a). 連接設備 -> 上方選單點擊工具箱 -> 點擊頁尾ipa簽名 -> 點擊左上添加ipa文件 -> 點擊下方使用Apple ID簽名 -> 開始簽名
 2. 安裝ipa檔案至行動裝置(可用Cydia Impactor等，此處舉例iMazing -> (https://imazing.com))
-   2(a). 連接設備 -> 點擊中間右頁選單內Manage Apps -> 點擊右下方下三角形 -> 選擇Install .IPA File
+   2(a). 連接設備 -> 點擊中間右頁選單內Manage Apps -> 點擊右下方下三角形 -> 選擇Install .IPA File安裝
 3. 至iOS設定內裝置管理點擊信任開發人員後即可正常使用  
 
+*補充
+1. 在```info.plist```內```<key>CFBundleDisplayName</key>```內可更改app名稱以利辨認
+   ```
+   <key>CFBundleDisplayName</key>
+	<string>文化幣</string>
+   ```
+2. 若需安裝兩個以上app可重複簽名已簽名檔案覆寫```CFBundleIdentifier```
