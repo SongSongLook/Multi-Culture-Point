@@ -1,7 +1,8 @@
 # Multi-Culture-Point
 台灣文化部文化幣應用程式多開、避免一部iOS裝置需多個帳號結帳時登入登出之麻煩。   
 (無需jailbreak，限iOS 13.0以上版本適用)
-
+使用範例:   
+<img src="https://imageconvert.org/uploads/IMG_65401688222238.jpg" width="25%">
 ## 所需app數量、版本設置  
 1. 下載上方file提供```DecryptedCC.ipa``` -> (https://github.com/SongSongLook/Multi-Culture-Coin/archive/refs/heads/main.zip)
 2. 確認自身裝置```Model Identifiers``` -> (https://deviceatlas.com/resources/clientside/ios-hardware-identification)   
