@@ -23,7 +23,7 @@
 1. 利用現成macOS各類助手利用Apple ID進行重簽名(此處舉例愛思助手 -> (https://www.i4.cn))    
    (Apple ID簽名ipa每七天過期需重新簽名，一部裝置最多可安裝三個自行簽名ipa檔案)   
    1(a). 連接設備 -> 上方選單點擊工具箱 -> 點擊頁尾ipa簽名 -> 點擊左上添加ipa文件 -> 點擊下方使用Apple ID簽名 -> 開始簽名
-2. 安裝ipa檔案至行動裝置(可用Cydia Impactor等，此處舉例iMazing -> (https://imazing.com))
+2. 安裝ipa檔案至行動裝置(可用Cydia Impactor等，此處舉例iMazing -> (https://imazing.com))   
    2(a). 連接設備 -> 點擊中間右頁選單內Manage Apps -> 點擊右下方下三角形 -> 選擇Install .IPA File安裝   
 3. 至iOS設定內裝置管理點擊信任開發人員後即可正常使用  
 ---
