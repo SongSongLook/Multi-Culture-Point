@@ -2,7 +2,7 @@
 台灣文化部文化幣應用程式多開、避免一部iOS裝置需多個帳號結帳時登入登出之麻煩。   
 (無需jailbreak，限iOS 13.0以上版本適用)   
 使用範例:   
-<img src="https://imageconvert.org/uploads/IMG_65401688222238.jpg" width="25%">
+<img src="https://img.onl/Orok5R" width="25%">
 ## 所需app數量、版本設置  
 1. 下載已砸殼ipa```DecryptedCP.ipa``` -> (https://mega.nz/file/DIl2mLyQ#ADGmpVFjhnqEoBhELtRdqDfAGSTrbNXcGTHeJBqxjj4)
 2. 確認自身裝置```Model Identifiers``` -> (https://deviceatlas.com/resources/clientside/ios-hardware-identification)   
