@@ -5,7 +5,7 @@
 <img src="https://img.onl/Orok5R" width="25%">
 ## 所需app數量、版本設置  
 1. 下載已砸殼ipa```DecryptedCP.ipa``` -> (https://mega.nz/file/DIl2mLyQ#ADGmpVFjhnqEoBhELtRdqDfAGSTrbNXcGTHeJBqxjj4)
-2. 確認自身裝置```Model Identifiers``` -> (https://deviceatlas.com/resources/clientside/ios-hardware-identification)   
+2. 可用附設python檔案確認自身裝置```Model Identifiers```  
 (目前原始檔案預設僅支持iPhone 8, iPhone 7,and iPhone 11 Pro Max若是以上型號可跳過步驟3)
 3. 以BBedit等文本編輯器開啟ipa檔案尋找 ```info.plist``` 內展開 ```UISupportedDevices``` 如以下所示   
  於```<array>```內新增個人裝置 Model Identifiers後儲存 (格式```<string>iPhonexx,x</string>```)  
